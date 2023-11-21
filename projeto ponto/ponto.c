@@ -1,4 +1,8 @@
 #include <stdio.h>
+#ifndef __math_h__
+#define __math_h__
+    #include <math.h>
+#endif
 
 // Aula 25 - Tipos abstratos de Dados
 // modulos: são os includes
@@ -15,6 +19,10 @@ void ponto_libera(pponto p){
 void ponto_acessa(pponto p, float *x, float *y){
     *x=p->x;
     *y=p->y;
+}
+void ponto_atribui(pponto p, float x, float y){
+    p->x=x;
+    p->y=y;
 }
 float ponto_ler_x(){
 

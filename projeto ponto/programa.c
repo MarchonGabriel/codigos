@@ -7,5 +7,5 @@ int main(){
     printf("A distancia entre p1 e p2 é: %.2f", distancia(p1,p2));
     ponto_libera(p1);
     ponto_libera(p2);
-    ponto_acessa();
+    return 0;
 }

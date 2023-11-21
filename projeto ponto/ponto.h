@@ -17,6 +17,7 @@ typedef ponto *pponto;
 pponto ponto_cria(float x, float y); //
 void ponto_libera(pponto p); //
 void ponto_acessa(pponto p, float *x, float *y);
+void ponto_atribui(pponto p, float x, float y);
 float ponto_ler_x();
 float ponto_ler_y();
 void ponto_escrever_x(pponto p, float x);
